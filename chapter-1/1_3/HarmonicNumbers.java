@@ -9,7 +9,7 @@ public class HarmonicNumbers {
         double sum = 0.0;
         System.out.print("H=(");
         for (int i = 1; i <= n; i++) {
-            sum += (double) 1/i;
+            sum += 1.0/i;
             System.out.print("1/" + i);
             if(i < n) System.out.print(" + ");// We avoid it to print a '+' at the end of the seq
         }
