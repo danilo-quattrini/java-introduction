@@ -4,7 +4,7 @@
  * In this case the program is like a weight, if the value of the pow is
  * bigger than the number we are converting, we ignore the value, whereas in
  * the case that the value of d is smaller than the pow, is the right pow, so we are
- * going to save the pow with 1 and decrease the number to evauate the next one.
+ * going to save the pow with 1 and decrease the number to evaluate the next one.
  * **/
 public class BinaryConversion {
     public static void main(String[] args) {
